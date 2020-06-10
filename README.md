@@ -2,7 +2,7 @@
 
 I wrote this implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) as one of [Robert Heaton's Programming Projects for Advanced Beginners](https://robertheaton.com/2018/07/20/project-2-game-of-life/). This probably doesn't follow good practices in all sorts of ways, because I'm still learning what those are.
 
-I wrote a basic [**Run Length Encoded (RLE)**](https://www.conwaylife.com/wiki/Run_Length_Encoded) file parser so I could learn a little about parsing files. The parser looks for a [rulestring in B/S notation](https://www.conwaylife.com/wiki/Rulestring), allowing alternate cellular automaton rules like [Day and Night](https://en.wikipedia.org/wiki/Day_and_Night_(cellular_automaton)). A community at conwaylife.com provides tons of fascinating patterns in the RLE format. The parser currently does no error handling. 
+I wrote a basic [**Run Length Encoded (RLE)**](https://www.conwaylife.com/wiki/Run_Length_Encoded) file parser so I could learn a little about parsing files. The parser looks for a [rulestring in B/S notation](https://www.conwaylife.com/wiki/Rulestring), allowing alternate cellular automaton rules like [Day and Night](https://en.wikipedia.org/wiki/Day_and_Night_(cellular_automaton)). A community at [conwaylife.com](https://www.conwaylife.com) provides tons of fascinating patterns in the RLE format. The parser currently does no error handling. 
 
 ![Gosper Glider Gun](gg-gun.gif)*Gosper Glider Gun*
 
