@@ -21,7 +21,7 @@ def init_argparse() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         '-neumann', action='store_true',
-        help="use Van Neumann instead of Moore neighborhoods"
+        help="use Von Neumann instead of Moore neighborhoods"
     )
     parser.add_argument(
         '-birth', type=str, action='store', default=None,
@@ -52,7 +52,7 @@ def init_argparse() -> argparse.ArgumentParser:
         help='wrap around edges of grid instead of cutting off edges'
     )
     parser.add_argument(
-        '-delay', type=float, action='store', default=.02,
-        help='approximate delay in seconds between steps (default=.02)'
+        '-delay', type=float, action='store', default=.01,
+        help='approximate delay in seconds between steps (default=.01)'
     )
     return parser
