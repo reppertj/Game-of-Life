@@ -1,4 +1,4 @@
 blessed==1.17.8
-certifi==2020.4.5.1
+certifi==2022.12.7
 six==1.15.0
 wcwidth==0.2.4
